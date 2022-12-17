@@ -193,3 +193,54 @@ footer #footer-links li {
     color: #8e8e8e;
     margin-top: 10px;
 }
+
+/*Smartphone*/
+
+@media(max-width: 768px) {
+    #banner-container {
+        display: none;
+    }
+
+    #main-container,
+    #form-box {
+        margin-top: 0;
+    }
+
+    #form-container,
+    #form-box,
+    #register-container,
+    #get-app-container {
+        width: 100%;
+        border: none;
+    }
+
+    footer {
+        width: 90%;
+        text-align: center;
+    }
+
+    #footer-links li {
+        margin-bottom: 10px;
+    }
+}
+
+/* Ipad */
+@media(min-width: 769px) and (max-width: 999px) {
+
+    footer {
+        width: 600px;
+        text-align: center;
+    }
+
+    #copyright {
+        text-align: center;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 850px) {
+
+    #banner-container {
+        margin-right: 40px;
+    }
+
+}
